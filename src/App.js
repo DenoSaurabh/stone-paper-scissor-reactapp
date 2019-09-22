@@ -29,8 +29,8 @@ class App extends React.Component {
       imageUrl1: './paper.png',
       imageUrl2: './paper.png',
 
-      name1: 'Saurabh',
-      name2: 'Shubham',
+      name1: 'Sourabh',
+      name2: 'Shubham Gupta',
 
       PvCplayChosen: false,
       leader: []
