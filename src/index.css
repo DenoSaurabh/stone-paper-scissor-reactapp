@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.box {
+  display: inline;
+}
+
+.box-1 {
+  position: relative;
+  left: -40%;
+  transform: scale(2);
+}
+
+.box-2 {
+  position: relative;
+  right: -40%;
+  transform: scale(2);
+}
+
+main {
+  margin-top: -10%;
+}
+
+sub {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+sub:hover {
+  cursor: pointer;
+  transform: scale(5);
+}
+
+.buttons {
+  position: absolute;
+}
+
+.play {
+  margin: 50px auto;
+  border: none;
+  height: 20%;
+  position: relative;
+  top: -40%;
+  transform: scale(2);
+  transition: 0.4s ease-in-out;
+}
+
+.Restart {
+  text-align: center;
+  margin-top: 80%;
+  height: 17%;
+  width: 40%;
+  position: relative;
+  left: -180%;
+  transform: scale(2);
+  transition: 0.4s ease-in-out;
+}
+
+.End-Game {
+  text-align: center;
+  margin-top: 80%;
+  height: 17%;
+  width: 40%;
+  position: relative;
+  right: -280%;
+  transform: scale(2);
+  transition: 0.4s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  transform: scale(2.5);
+  transition: 0.4s ease-in-out;
+}
+
+
+button:focus {
+  outline: none;
+}
+
+
